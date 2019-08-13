@@ -16,9 +16,9 @@ public class elseifstatement {
   */
 		int a=10;
 		int b=10;
-		if(a>=b)
+		if(a<b)
 		{
-			System.out.println("a isgreaterthanb");
+			System.out.println("a is greater than b");
 		}
 		else if(a==b)
 		{

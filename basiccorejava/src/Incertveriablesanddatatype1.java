@@ -1,6 +1,6 @@
-package basiccorejava;
 
-public class practice1 {
+
+public class Incertveriablesanddatatype1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

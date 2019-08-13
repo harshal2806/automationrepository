@@ -1,6 +1,6 @@
-package conditionalstatement;
 
-public class practice2 
+
+public class Logicaloperator1 
 {
 
 	public static void main(String[] args)
