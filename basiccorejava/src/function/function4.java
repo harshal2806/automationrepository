@@ -1,14 +1,13 @@
 package function;
+//display the total mark, percentage and pass or fail when at least single subject had less than 35 marks.
 
 public class function4 {
 
 	public static void main(String[] args) 
 	{
-		int[] marks= {33,86,45,78,91};
+		int[] marks= {36,86,45,78,91};
 		String str=finalresult(marks);
-		System.err.println(str);
-		
-		
+		System.out.println(str);
 	}
 	public static String finalresult(int[]arr)
 	{

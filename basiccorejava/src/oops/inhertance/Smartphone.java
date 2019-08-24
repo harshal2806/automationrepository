@@ -4,7 +4,7 @@ public class Smartphone extends Mobile//,Telphone   not allowed-multiple inherit
 {
 	public void internet()
 	{
-		System.out.println("internet");
+		System.out.println("internet from smartphone");
 	}
 
 }

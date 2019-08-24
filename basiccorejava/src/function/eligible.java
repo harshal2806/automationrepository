@@ -4,11 +4,11 @@ public class eligible {
 
 	public static void main(String[] args) 
 	{
-		int age;
-		if (age<18);
+		int age = 23;
+		if (age>18)
 		{
 			System.out.println("false");
-		} else if(age<30);
+		} else if(age<30)
 		{
 			System.out.println("false");
 		}

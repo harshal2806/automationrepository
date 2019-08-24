@@ -1,6 +1,5 @@
 package function;
-
-public class functions2 {
+public class functions2{
 	public static boolean eligible(int age)
 	{
 		if(age>=18 && age<=30)
@@ -8,9 +7,7 @@ public class functions2 {
 			return true;
 		}else {
 			return false;
-			
 		}
-		
 	}
 
  	public static void main(String[] args) 
@@ -21,23 +18,18 @@ public class functions2 {
 		sum2=sum(30,40);
 		System.out.println(sum1+sum2);
 		boolean res;
-		res=eligible(31);
+		res=eligible(25);
 		if (res)
 		{
 			System.out.println("you are eligible");
 			
 		}else {
 			System.out.println("you are not eligible");
-			
 		}
-		
-		
-
 	}
 	public static int sum(int a,int b)
 	{
 		System.out.println(a+b);
 		return a+b;
 	}
-
 }

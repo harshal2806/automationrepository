@@ -20,7 +20,7 @@ public class Car2
 		this.steering=steering;
 	}
 	
-   public void accelaration()
+   public void  accelaration()
      {
 	System.out.println(steering+" steering car having "+cc+" cc engine run on "+fueltype+" fueltype");
      }

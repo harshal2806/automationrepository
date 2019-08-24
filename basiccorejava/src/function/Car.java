@@ -2,8 +2,8 @@ package function;
 
 public class Car
 {
-	static int wheels=4;
-	String colour="Blue";
+	static int wheels=4;  //
+	String colour="Blue";  //instance veriable
 	String model;
 	
 	public void specification()
@@ -16,10 +16,10 @@ public class Car
 	}
 	public static void main(String[] args)
 	{
-		//static veriables and static fuctions
+		//static variables and static functions
 		testdrive();
 		System.out.println(wheels);
-		//Non static veriables and non static function
+		//Non static variables and non static function
 		Car c=new Car();
 		System.out.println(c.colour);
 		c.specification();

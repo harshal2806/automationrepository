@@ -9,12 +9,12 @@ public class fuction3 {
 	
 
 	}
-	public static string result(int mark)
-	{
-		
-			
-		
-		
-	}
+//	public static String result(int mark)
+//	{
+//		
+//			
+//		
+//		
+//	}
 
 }

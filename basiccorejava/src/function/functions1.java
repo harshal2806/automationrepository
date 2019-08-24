@@ -13,7 +13,7 @@ public class functions1 {
 		sum(10,20);
 		sum(30,40);
 		sum(50,60);
-		//massage();
+		massage();
 		multiplication(10,20);
 		division(20,10);
 		subtraction(20,10);
@@ -26,10 +26,10 @@ public class functions1 {
 		System.out.println(a+b);
 		
 	}
-//	public static void massage()
-//	{
-//		System.out.println("hi i am harshal");
-//	}
+	public static void massage()
+	{
+		System.out.println("hi i am harshal");
+	}
 	
 	public static void multiplication(int a,int b)
 	{

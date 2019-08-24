@@ -3,7 +3,6 @@ package function;
 public class AccessModifier {
 
 	public static void main(String[] args) 
-	
 	//public-throught class , private-with in class, protected-with in package/outside the package using child class
 	//,default /n access modifier-with in package
 	{
@@ -12,7 +11,6 @@ public class AccessModifier {
 		obj.privatefunction();
 		obj.protectedfunction();
 		obj.defaultfunction();
-		
 	}
 		public void publicfunction()
 		{
@@ -32,8 +30,4 @@ public class AccessModifier {
 		{
 			System.out.println("daufault function");
 		}
-	
-	
-	
-
 }
