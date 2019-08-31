@@ -10,10 +10,7 @@ public class FinalKeyword extends TestFinalMethodandClass {
 	
 
 	}
-	public  void test()
-	{
-		
-	}
+	
 
 
 }

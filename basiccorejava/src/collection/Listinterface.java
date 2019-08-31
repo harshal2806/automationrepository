@@ -10,27 +10,7 @@ public class Listinterface {
 	public static void main(String[] args)
 	{
 		//ArreyList
-		/*List<String>list=new ArrayList<>(); //<string>-generic
-		list.add("harshal");
-		list.add("Jain");
-		list.add("Techbodhi");
-		
-		for(String s:list)
-		{
-			System.out.println(s);
-		}*/
-		//LinkedList
-		/*List<String>list=new LinkedList<>(); //<string>-generic
-		list.add("harshal");
-		list.add("Jain");
-		list.add("Techbodhi");
-		
-		for(String s:list)
-		{
-			System.out.println(s);
-		}*/
-		//Vector
-		List<String>list=new Vector<>(); //<string>-generic
+		List<String>list=new ArrayList<>(); //<string>-generic-if remove some ele all ele shifts.,slow
 		list.add("harshal");
 		list.add("Jain");
 		list.add("harshal");
@@ -41,6 +21,28 @@ public class Listinterface {
 		{
 			System.out.println(s);
 		}
+		//LinkedList
+//		List<String>list=new LinkedList<>(); //<string>-generic-doubly linked list,fast
+//		list.add("harshal");
+//		list.add("Jain");
+//		list.add("Techbodhi");
+//		
+//		for(String s:list)
+//		{
+//			System.out.println(s);
+//		}
+		//Vector
+		/*List<String>list=new Vector<>(); //<string>-generic
+		list.add("harshal");
+		list.add("Jain");
+		list.add("harshal");
+		list.add("Jain");
+		list.add("Techbodhi");
+		
+		for(String s:list)
+		{
+			System.out.println(s);
+		}*/
 		
 
 	}

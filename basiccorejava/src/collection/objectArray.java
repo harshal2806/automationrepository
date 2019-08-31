@@ -16,7 +16,7 @@ public class objectArray {
 		p=sm;
 		
 		int a=10;
-		String str= anand;
+		String str= "anand";
 		
 		
 

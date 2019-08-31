@@ -23,6 +23,7 @@ public class BankUser {
 		acc.dabitCard();
 		acc.currentAccount();
 		acc.savingAccount();
+		acc.demonitization();
 
 
 

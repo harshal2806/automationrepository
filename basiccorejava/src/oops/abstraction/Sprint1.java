@@ -1,6 +1,6 @@
 package oops.abstraction;
 
-public abstract class Sprint1 extends WordPad {
+public abstract  class Sprint1 extends WordPad {
 	
 	public  void creatNewFile()
 	{
