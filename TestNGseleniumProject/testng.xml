@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="5" name="Suite 1">
+    <classes>
+    <class name="BasicAnnotation.BaseClass"/>
+     
+    </classes>
+     </test> <!-- Test -->
+  <test thread-count="5" name="Module 1">
+    <classes>
+    <class name="BasicAnnotation.M1.BaseModule1"/>
+      <class name="BasicAnnotation.M1.Scenario1"/>
+      <class name="BasicAnnotation.M1.Scenario2"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Module 2">
+    <classes>
+    <class name="BasicAnnotation.M2.BaseModule2"/>
+      <class name="BasicAnnotation.M2.Scenario3"/>
+      <class name="BasicAnnotation.M2.Scenario4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Module 3">
+    <classes>
+    <class name="BasicAnnotation.M3.BaseModule3"/>
+      <class name="BasicAnnotation.M3.Scenario5"/>
+      <class name="BasicAnnotation.M3.Scenario6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite>

@@ -2,5 +2,19 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry excluding="conditionalstatement/note.java" kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

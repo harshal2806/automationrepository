@@ -6,7 +6,8 @@ import java.io.FileNotFoundException;
 
 public class CheckedException {
 
-	public static void main(String[] args) throws InterruptedException, FileNotFoundException 
+	public static void main(String[] args) throws InterruptedException// throws InterruptedException, FileNotFoundException 
+, FileNotFoundException
 	{
 		System.out.println("name");
 		

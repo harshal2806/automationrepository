@@ -38,7 +38,7 @@ public class SetInterface {
 //		}
 		//TreeSet-Sorted
 		
-		Set<Integer> set=new TreeSet<>();
+		TreeSet<Integer> set=new TreeSet<>();
 		set.add(30);
 		set.add(20);
 		set.add(30);
