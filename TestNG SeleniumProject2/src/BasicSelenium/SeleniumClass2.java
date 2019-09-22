@@ -12,25 +12,27 @@ import org.testng.annotations.Test;
 public class SeleniumClass2 {
 
   @Test
-  public void test1() throws InterruptedException
+  public void test1() throws InterruptedException 
    {
 
 		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
 		
-		ChromeDriver dr=new ChromeDriver();
+		ChromeDriver dr=new ChromeDriver(); 
 		dr.get("http://www.newtours.demoaut.com/");
 		dr.manage().window().maximize();
 		//Text  box
 		dr.findElement(By.xpath("//input[@name='userName']")).sendKeys("mercury");
 		dr.findElement(By.xpath("//input[@name='password']")).sendKeys("mercury");
 		//button
-		dr.findElement(By.xpath("//input[@name='login']")).click();
+		dr.findElement(By.xpath("//input[@name='login']")).click(); 
 		//radiobutton
 		dr.findElement(By.xpath("//input[@value='oneway']")).click();
-		WebElement pass=dr.findElement(By.xpath("//select[@name='passCount']"));
 		//Dropdown
+		WebElement pass=dr.findElement(By.xpath("//select[@name='passCount']"));
+		
 		Select sel=new Select(pass);
 		sel.selectByIndex(2);
+		
 		
 		Thread.sleep(2000);
 		sel.selectByValue("2");
@@ -46,7 +48,8 @@ public class SeleniumClass2 {
 		
 		for(WebElement r:rows)
 		{
-			List<WebElement> cols=r.findElements(By.tagName("td")); (WebElement c:cols)
+			List<WebElement> cols=r.findElements(By.tagName("td"));
+					for(WebElement c:cols)
 			{
 				System.out.print(c.getText()+" ");
 			}
@@ -85,6 +88,8 @@ public class SeleniumClass2 {
 		WebElement img=dr.findElement(By.xpath("//img[@alt='Mercury Tours']"));
 		System.out.println(img.getAttribute("width"));
 		System.out.println(img.getAttribute("height"));
+		
+		dr.findElement(By.xpath("//img[@src='/images/forms/Logout.gif']")).click();
 
 		
 		

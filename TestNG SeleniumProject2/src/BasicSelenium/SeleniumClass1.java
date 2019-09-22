@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class SeleniumClass1 {
 	
-	@Test
+	@Test 
 	public void test1()
 	{
 		System.out.println("Testing");

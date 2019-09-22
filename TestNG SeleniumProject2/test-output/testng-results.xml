@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23113" started-at="2019-09-14T06:24:43Z" finished-at="2019-09-14T06:25:06Z">
+  <suite name="Default suite" duration-ms="153062" started-at="2019-09-20T15:32:19Z" finished-at="2019-09-20T15:34:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23113" started-at="2019-09-14T06:24:43Z" finished-at="2019-09-14T06:25:06Z">
-      <class name="BasicSelenium.HandleIframe">
-        <test-method status="PASS" signature="test1()[pri:0, instance:BasicSelenium.HandleIframe@51081592]" name="test1" duration-ms="23057" started-at="2019-09-14T06:24:43Z" finished-at="2019-09-14T06:25:06Z">
+    <test name="Default test" duration-ms="153062" started-at="2019-09-20T15:32:19Z" finished-at="2019-09-20T15:34:52Z">
+      <class name="BasicSelenium.Book1W1PCIndia">
+        <test-method status="PASS" signature="book1()[pri:0, instance:BasicSelenium.Book1W1PCIndia@51081592]" name="book1" duration-ms="153018" started-at="2019-09-20T15:32:19Z" finished-at="2019-09-20T15:34:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- BasicSelenium.HandleIframe -->
+        </test-method> <!-- book1 -->
+      </class> <!-- BasicSelenium.Book1W1PCIndia -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

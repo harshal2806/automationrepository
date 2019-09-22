@@ -1,6 +1,6 @@
 package oops.abstraction;
 
-public class Axis implements RBI
+public abstract class Axis implements RBI
 {
 
 	/*@Override

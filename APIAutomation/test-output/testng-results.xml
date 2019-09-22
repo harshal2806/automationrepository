@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5835" started-at="2019-09-22T07:41:18Z" finished-at="2019-09-22T07:41:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5835" started-at="2019-09-22T07:41:18Z" finished-at="2019-09-22T07:41:24Z">
+      <class name="testAPIs.CreateARecord">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testAPIs.CreateARecord@2b98378d]" name="test1" duration-ms="5800" started-at="2019-09-22T07:41:18Z" finished-at="2019-09-22T07:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testAPIs.CreateARecord -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
