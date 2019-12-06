@@ -15,9 +15,10 @@ public class SeleniumClass2 {
   public void test1() throws InterruptedException 
    {
 
-		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver_win32 (1)//chromedriver.exe");
 		
 		ChromeDriver dr=new ChromeDriver(); 
+		System.out.println("driver="+dr);
 		dr.get("http://www.newtours.demoaut.com/");
 		dr.manage().window().maximize();
 		//Text  box
@@ -25,7 +26,7 @@ public class SeleniumClass2 {
 		dr.findElement(By.xpath("//input[@name='password']")).sendKeys("mercury");
 		//button
 		dr.findElement(By.xpath("//input[@name='login']")).click(); 
-		//radiobutton
+		/*//radiobutton
 		dr.findElement(By.xpath("//input[@value='oneway']")).click();
 		//Dropdown
 		WebElement pass=dr.findElement(By.xpath("//select[@name='passCount']"));
@@ -62,7 +63,19 @@ public class SeleniumClass2 {
 		WebElement country=dr.findElement(By.xpath("//select[@name='delCountry']"));
 		Select cont =new Select(country);
 		
+		
+		List<WebElement>allOptions=cont.getOptions();
+		int k=allOptions.size();
+		System.out.println(k);
+		
+		for(int i=0;i<k;i++)
+		{
+			WebElement option=allOptions.get(i);
+			String text=option.getText();
+			System.out.println(text);
+		}
 		cont.selectByIndex(3);
+				
 		
 		//Alert
 		Alert alt=dr.switchTo().alert();	
@@ -90,7 +103,7 @@ public class SeleniumClass2 {
 		System.out.println(img.getAttribute("height"));
 		
 		dr.findElement(By.xpath("//img[@src='/images/forms/Logout.gif']")).click();
-
+*/
 		
 		
 

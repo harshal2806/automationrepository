@@ -1,6 +1,6 @@
 package oops.abstraction;
 
-public class Citi implements RBI{
+public  class Citi implements RBI{
 	public void savingAccount() {
 		System.out.println("Citi saving account");
 		

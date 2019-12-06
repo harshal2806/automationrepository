@@ -2,9 +2,9 @@ package function;
 
 public class Car2 
 {
-	int cc;
-	String fueltype;
-	int steering;
+	public int cc;
+	public String fueltype;
+	public int steering;
 	
 	//Default Constructor
 	public Car2()
@@ -15,10 +15,10 @@ public class Car2
 	//Parameterized Constructor
 	public Car2(int cc, String fueltype, int steering)
 	{
-		this.cc=cc;
+		this.cc=cc; 
 		this.fueltype=fueltype;
 		this.steering=steering;
-		//System.out.println(steering+" steering car having "+cc+" cc engine run on "+fueltype+" fueltype");
+		System.out.println(steering+" steering car having "+cc+" cc engine run on "+fueltype+" fueltype");
 		
 	}
 	
@@ -34,6 +34,7 @@ public class Car2
 
 		Car2 THAR=new Car2(2000, "diesel", 1);
 		THAR.accelaration();
+		
 	}
 }
 

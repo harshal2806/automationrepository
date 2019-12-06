@@ -22,6 +22,11 @@ public class SetDataInExcel {
 		HSSFCell Cell=row.getCell(0);
 		
 		Cell.setCellValue("anand");
+		HSSFRow row1=sheet.getRow(0);
+		HSSFCell Cell1=row.getCell(1);
+		Cell1.setCellValue("jain");
+		System.out.println(Cell1.getAddress());
+		System.out.println(Cell.getAddress());
 		
 		FileOutputStream fileOut=new FileOutputStream(path);
 		wb.write(fileOut);

@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -33,6 +34,7 @@ public class Flipkart1
 		
 		wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath("//a[text()='Shirts']"))));
 		wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath("//a[text()='Shirts']"))));
+		
 		dr.findElement(By.xpath("//a[text()='Shirts']")).click();
 		
 		WebElement ele=dr.findElement(By.xpath("//div[@class='_3aQU3C']"));
@@ -44,7 +46,7 @@ public class Flipkart1
 		//1st method
 		
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='_3togXc']")));
-		
+		//2nd method
 		dr.findElement(By.xpath("//img[@class='_3togXc']")).click();
 		Set<String> wins=dr.getWindowHandles();
 		for(String w:wins)

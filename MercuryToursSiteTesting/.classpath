@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Dell/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Framework/JarFiles/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/eclipse-java-oxygen-3a-win32-x86_64/eclipse/plugins/org.testng_6.14.3.r201802240500.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/backport-util-concurrent-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/classworlds-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/classworlds-1.1-alpha-2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/cucumber-core-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/cucumber-java-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/cucumber-junit-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/groovy-2.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/groovy-json-2.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/groovy-xml-2.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/hamcrest-core-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/hamcrest-library-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jaxb-osgi-2.2.10.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jcommander-1.64.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/rest-assured-4.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

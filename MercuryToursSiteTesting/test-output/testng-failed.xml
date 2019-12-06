@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercury Tour]">
+  <test thread-count="5" name=" Mercury test(failed)">
+    <classes>
+      <class name="com.mercury.qa.testcases.HomePageTest">
+        <methods>
+          <include name="validateHomePageTitleTest"/>
+          <include name="SelectCityOfDepertureTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!--  Mercury test(failed) -->
+</suite> <!-- Failed suite [Mercury Tour] -->

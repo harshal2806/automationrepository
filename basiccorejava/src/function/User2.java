@@ -9,6 +9,7 @@ public class User2 {
 		honda.fueltype="diesel";
 		honda.steering=1;
 		honda.accelaration();
+		//honda.Car2();
 		
 		Car2 audi= new Car2();
 		audi.cc=3000;
@@ -21,6 +22,7 @@ public class User2 {
 		hyundai.fueltype="petrol";
 		hyundai.steering=1;
 		hyundai.accelaration();
+		
 		
 		
 	}

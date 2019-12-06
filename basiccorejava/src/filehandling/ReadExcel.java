@@ -25,14 +25,6 @@ public class ReadExcel
 	
 }
   
-  
-  
-  
-  
-  
-  
-  
-  
   public static ReadExcel test()
   {
 	  return new ReadExcel();
